@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # MCP CopilotKit Demo
 
 This project demonstrates how to use [Composio.dev](https://composio.dev) and [CopilotKit](https://copilotkit.ai) together in a Next.js app.

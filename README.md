@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](<Screenshot 2025-05-30 at 16.14.35-1.png>)
 
 # MCP CopilotKit Demo
 

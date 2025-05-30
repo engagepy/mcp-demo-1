@@ -1,8 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MCP CopilotKit Demo
 
-## Getting Started
+This project demonstrates how to use [Composio.dev](https://composio.dev) and [CopilotKit](https://copilotkit.ai) together in a Next.js app.
 
-First, run the development server:
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd mcp-copilotkit
+```
+
+### 2. Install Dependencies
+
+Use your preferred package manager:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### 3. Set Up Environment Variables
+
+Create a `.env.local` file in the root directory and add the following:
+
+```env
+# MCP (Composio) API URL
+MCP_URL=https://api.composio.dev
+
+# Your OpenAI API Key
+OPENAI_API_KEY=sk-...
+
+# (Optional) Other environment variables as needed
+```
+
+- **MCP_URL**: The base URL for Composio.dev API. Use the default above unless instructed otherwise.
+- **OPENAI_API_KEY**: Get your API key from [OpenAI](https://platform.openai.com/account/api-keys).
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
@@ -14,23 +54,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser to view the demo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/page.tsx` — Main page component.
+- `public/` — Static assets.
+- `styles/` — CSS and styling.
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- Integrates [Composio.dev](https://composio.dev) for workflow automation.
+- Uses [CopilotKit](https://copilotkit.ai) for AI-powered features.
+- Built with [Next.js](https://nextjs.org) for fast development and deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Learn More
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Composio.dev Documentation](https://docs.composio.dev)
+- [CopilotKit Documentation](https://docs.copilotkit.ai)
+- [Next.js Documentation](https://nextjs.org/docs)
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to open issues or submit pull requests!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

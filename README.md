@@ -54,7 +54,7 @@ pnpm dev
 bun dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser to view the demo.
+Visit [http://localhost:3000/copilotkit](http://localhost:3000) in your browser to view the demo.
 
 ## 🛠️ Project Structure
 
